@@ -1,0 +1,19 @@
+{
+  "name": "url2md",
+  "version": "1.0.0",
+  "description": "URL to Markdown exporter with image download — supports WeChat articles",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "url2md": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun src/cli.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer-core": "^24.0.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
